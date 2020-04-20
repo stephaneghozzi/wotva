@@ -91,7 +91,7 @@ ui <- dashboardPage(
          hr {border-top: 1px solid #D3D3D3;}'))
     ),
     fluidPage(
-      HTML('Prototype of a tool to help the investigation of outbreaks of unknown origins, developed for the <a href="https://www.who.int/emergencies/outbreak-toolkit">Outbreak Toolkit</a> of WHO.'), br(),
+      HTML('Prototype of a tool to help the investigation of outbreaks of unknown origin, developed for the <a href="https://www.who.int/emergencies/outbreak-toolkit">Outbreak Toolkit</a> of WHO.'), br(),
       HTML('See the <a href="https://gitlab.com/stephaneghozzi/wotva">project repository</a> for information.'),
       br(),hr(),br(),
       h4(HTML(paste0('You are looking at the cases from',
