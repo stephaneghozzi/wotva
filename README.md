@@ -18,7 +18,7 @@ Case data are analyzed and visualized in an interactive dashboard. The goal is t
 
 A live version of the dashboard is accessible at https://stephaneghozzi.shinyapps.io/wotva
 
-<img src="img/wotva-screenshot.png" alt="wotva screenshot" width="600" class="center"/>*Screenshot of the WHO Outbreak Toolkit Virtual Assistant*
+<img src="img/wotva-screenshot.png" alt="wotva screenshot" width="750" class="center"/>
 
 The core idea is to compare individual cases to *disease references* and to one another. The references are what a typical case might look like, with variability taken into account, e.g. "patients of that disease are rather male, between 1 and 4 years old, and live in tropical regions".
 
@@ -32,7 +32,7 @@ Output:
 2. **scores** measure the similarity between cases and references;
 3. various interactive widgets (epicurve, map, line list, pivot table) to illustrate how the tool could be integrated in a broader outbreak investigation or management tool.
 
-Templates for reference and line list are provided in [data/references](doc/references) and [data/linelists](doc/linelists) respectively.
+Templates for reference and line list are provided in [data/references](data/references) and [data/linelists](data/linelists) respectively.
 
 The approach, results and perspectives are presented in [doc/outbreak_toolkit-assistant-presentation-20191016-long.pdf](doc/outbreak_toolkit-assistant-presentation-20191016-long.pdf) and [doc/report-nopreprocessing.pdf](doc/report-nopreprocessing.pdf) (with a slightly outdated version of the dashboard).
 
