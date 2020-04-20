@@ -1,0 +1,118 @@
+name,label,type,format,multiplicity,values,weight,observations,extension
+report_date,Date case was reported (DD.MM.YYYY):,date,YYYY-MM-DD,0,NA,NA,NA,NA
+notification_facility_type,Case reported by:,int_categorical,NA,0,"0 unknown, 1 mobileteam, 2 communityhealthcentre, 3 hospital, 4 other",NA,NA,NA
+birth_date,Date of birth (DD/MM/YYYY):,date,YYYY-MM-DD,0,NA,NA,NA,NA
+age_year,Age at onset:           years,int_ordinal,NA,0,"0, 99",1,"20, 40",NA
+sex,Male Female,int_categorical,NA,0,"1 male, 2 female",1,2,NA
+occupation_hcw,Works in health facility:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+gps_lat,GPS latitude:,float,point_decimal_no_grouping,0," -180,  180",NA,NA,NA
+gps_long,GPS longitude:,float,point_decimal_no_grouping,0," -180,  180",NA,NA,NA
+mass_gathering_yn,Did you participate in mass gatherings ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+mass_gathering_date,Date (DD/MM/YYYY):,date,YYYY-MM-DD,1,NA,NA,NA,NA
+no_hhd,How many household members do you living with ?,int_ordinal,NA,0,"0, 100",NA,NA,NA
+sick_hhd_yn,Do you have any household members with similar illness or symptoms ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sick_hhd_onset,date of onset (DD/MM/YYYY),date,YYYY-MM-DD,1,NA,NA,NA,NA
+sick_comm_yn,Are you aware of people outside your household with similar illness or symptoms ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+sick_comm_relat,Relationship,int_categorical,NA,1,"1 friend, 2 workmate, 3 relative, 4 romanticpartner",NA,NA,NA
+sick_comm_onset,date of onset (DD/MM/YYYY),date,YYYY-MM-DD,0,NA,NA,NA,NA
+contact_sym_yn,Did you had any contacts with a SYMPTOMATIC CASE ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+contact_sym_date,Date of last contact (DD/MM/YYYY),date,YYYY-MM-DD,0,NA,NA,NA,NA
+travel_hist_yn,"Did you travel, outside your residential area, prior to symptoms onset ?",int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+travel_hist_date,Traveling Date (DD/MM/YYYY),date,YYYY-MM-DD,1,NA,NA,NA,NA
+tradi_n_treat,Did you received care from traditional healer or other treatment ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+animal_exposure_yn,Were you in close proximity to any animals in the XX week/months prior to symptom onset?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+animal_dom_type,Interaction context,int_categorical,NA,0,"1 domestic, 2 wild, 3 pest",NA,NA,NA
+animal_sick_type,Direct contact with sick animals ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+animal_sick_sign,Was it dead sick or had an abortion ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+water_drinking_qual,Cleanness of drinking water,int_categorical,NA,1,"1 clear, 2 notclear, 3 sharedwithanimals",1,"2, 3",NA
+food_change,Was there any changes or significant events involving your SOURCE of food or drinks ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+food_unusual,"Was there any changes or significant events involving your FOOD PRODUCT OR DRINKS, prior to symptoms onset ?",int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+date__dd_mm_yyyy__,Date (DD/MM/YYYY):,date,YYYY-MM-DD,0,NA,NA,NA,NA
+insect_bednet,Did you sleep under a bed net every night in the month prior to falling ill,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+insect_type,Did you notice any unusual insect lately ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+insect_qty,Did you notice unusual quantity of insect lately ?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sample1_date_taken,Date collected,date,YYYY-MM-DD,0,NA,NA,NA,NA
+alt_sgpt__u_l_,ALT/SGPT (U/L),float,point_decimal_no_grouping,0," 1,  2000",1,"1000, 2000",NA
+ast_sgo__u_l_,AST/SGO (U/L),float,point_decimal_no_grouping,0," 1,  2000",1,"1000, 2000",NA
+lactate__mmol_l_,Lactate (mmol/L),float,point_decimal_no_grouping,0," 0,  3",NA,NA,NA
+haemoglobin___g_l_,Haemoglobin ((g/L),float,point_decimal_no_grouping,0," 60,  180",NA,NA,NA
+creatinine__umol_l_,Creatinine (umol/L),float,point_decimal_no_grouping,0," 50,  300",NA,NA,NA
+total_bilirubin__umol_l_,Total bilirubin (umol/L),float,point_decimal_no_grouping,0," 0,  99",1,"19, 99",NA
+potassium__mmol_l_,Potassium (mmol/L),float,point_decimal_no_grouping,0," 0,  10",NA,NA,NA
+wbc_count__x109_l_,WBC count (x109/L),float,point_decimal_no_grouping,0," 4,  20",NA,NA,NA
+urea__mmol_l_,Urea (mmol/L),float,point_decimal_no_grouping,0," 0,  3",NA,NA,NA
+platelets__x109_l_,Platelets (x109/L),float,point_decimal_no_grouping,0," 20,  500",NA,NA,NA
+creatinine_kinase__u_l_,Creatinine kinase (U/L),float,point_decimal_no_grouping,0," 10,  500",NA,NA,NA
+sample1_date_sent,Sample was sent to lab,date,YYYY-MM-DD,0,NA,NA,NA,NA
+sample1_date_received,sample was received,date,YYYY-MM-DD,0,NA,NA,NA,NA
+sample3_quality,Quality,int_categorical,NA,0,"0 unknown, 1 goodquality, 2 poorqualitycompromised",NA,NA,NA
+test1_result_date,Results were received,date,YYYY-MM-DD,0,NA,NA,NA,NA
+atb_before,Did the patient received antibiotic prior to specimen collection?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+onset_date,Date of symptoms onset (DD/MM/YYYY) ___/___/_____,date,YYYY-MM-DD,0,NA,NA,NA,NA
+presentation_date,Date first presented to health factility (DD/MM/YYYY): ___/___/_____,date,YYYY-MM-DD,0,NA,NA,NA,NA
+hospitalised,Admitted to health facility,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+outcome,Outcome of illness (circle): still sick / cured / sequels / abandon / death,int_categorical,NA,0,"0 unknown, 1 recovered, 2 died, 3 stillill, 4 recoveredwithsequelas",NA,NA,NA
+date_outcome,Date outcome was evaluated (DD/MM/YYYY): ___/___/_____,date,YYYY-MM-DD,0,NA,NA,NA,NA
+death_date,Date of abandon/recovery or death (DD/MM/YYYY):___/___/_____,date,YYYY-MM-DD,0,NA,NA,NA,NA
+sympt_fever_subj,History of fever,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+sign_temp,Temperature,float,point_decimal_no_grouping,0," 24,  44",NA,NA,NA
+sympt_fever_onset,"If febrile, date of fever onset:",date,YYYY-MM-DD,0,NA,NA,NA,NA
+onset_type,Acute / progressive onset,int_categorical,NA,0,"1 acute, 2 progressive",1,1,NA
+sympt_chills,Chills,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sympt_pain,Intense pain,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sympt_bleed,Abnormal bleeding reported,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_bleed,Observed abnormal bleeding,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_bleed_site,Site of any  abnormal bleeding,int_categorical,NA,0,"1 gums, 2 mouth, 3 nose, 4 vomit, 5 stool, 6 urine, 7 vagina, 8 injectionsites",NA,NA,NA
+sign_dehydratation,Dehydratation,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_pulse,Weak pulse,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_oede,Peripheral oedemas,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_card_dist,"Signs of cardiac distress, list",int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_shock,shock,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_hr,Heart rate,float,point_decimal_no_grouping,0," 40,  160",NA,NA,NA
+sign_syst,Systolic blood pressure,float,point_decimal_no_grouping,0," 5,  25",NA,NA,NA
+sign_dias,Diastolic blood pressure,float,point_decimal_no_grouping,0," 2,  13",NA,NA,NA
+sign_resp,Observed respiratory signs,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_cough,Cough,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_expect,Productive cough/Expectoration,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_bleed_sputum,Expectoration with blood (hemoptysis),int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_short,Shortness of breath,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_resp_distress,Respiratory distress,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_blue,Cyanosis,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_pneu,pneumonia,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_pntho,pneumothorax,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_resprate,Respiratory rate,float,point_decimal_no_grouping,0," 8,  30",NA,NA,NA
+sign_sat,Saturation,float,point_decimal_no_grouping,0," 65,  100",NA,NA,NA
+sympt_abdopain,Stomach / abdominal pain:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+sympt_hiccoughs,Hiccoughs,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_dark_stool,Dark or bloody stool (melena):,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_abdo_mass,Abdominal mass,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sympt_diarrhoea,Diarrhoea (=3 loose/liquid stools per day):,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+sign_dysentery,Bloody diarrhoea (dysentery):,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_icterus,jaundice,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+sympt_vomit,Vomiting/nausea:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+sympt_anorexia,Loss of appetite (anorexia):,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",1,1,NA
+sign_altered_conscious_yn,Conscious disorder:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_lethargy,Intense fatigue (lethargy) or weakness:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_coma,Coma,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_seizure,Seizures,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_rash,Presence of skin rash:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_rash_onset,"If present, date of rash onset (DD/MM/YYYY):",date,YYYY-MM-DD,0,NA,NA,NA,NA
+sign_rash_type,"If present, type of rash:",int_categorical,NA,0,"1 haemorrhagic, 2 erythematous, 3 vesicularpustular, 4 petechialpurpuric, 5 other",NA,NA,NA
+sign_necrosis,Skin necrosis,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_ulcer,Ulceration of the skin,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_gland,Swollen glands,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_conjunctivitis,Conjunctivitis:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_bleed_eyes,Bleeding into eyes (conjunctival injections):,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sympt_difficulty_swallow,Difficulty swallowing:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_bleed_nose,Bleeding from nose (epistaxis):,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_bleed_gums,Bleeding gums (gingivitis):,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sympt_bleed_vagina,Vaginal bleeding outside of menstruation:,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+sign_renal,Not passing urines,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+cond_pregnant,Pregancy,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+cond_partum,Post partum,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+cond_acute,Associated acute disease,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+cond_immuno,Immunodeficient,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+cond_malnut,Malnutrition / MUAC measurement,float,point_decimal_no_grouping,0," 80,  500",NA,NA,NA
+vac_yn,Did the patient received full vaccination course for the suspected disease?,int_categorical,NA,0,"0 unknown, 1 yes, 2 no",NA,NA,NA
+vac_date,Date of last dose,date,YYYY-MM-DD,0,NA,NA,NA,NA
+vac_source,Vaccination information obtained by?,int_categorical,NA,0,"1 vaccinationcard, 2 healthservices, 3 parentsoranotheradult",NA,NA,NA

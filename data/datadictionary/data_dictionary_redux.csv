@@ -1,0 +1,118 @@
+"name","label","type","format","values","multiplicity"
+"report_date","Date case was reported (DD.MM.YYYY):","date","YYYY-MM-DD",NA,0
+"notification_facility_type","Case reported by:","int_categorical",NA,"0=unknown;1=mobileteam;2=communityhealthcentre;3=hospital;4=other",0
+"birth_date","Date of birth (DD/MM/YYYY):","date","YYYY-MM-DD",NA,0
+"age_year","Age at onset:           years","int_ordinal",NA,"0, 99",0
+"sex","Male Female","int_categorical",NA,"1=male;2=female",0
+"occupation_hcw","Works in health facility:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"gps_lat","GPS latitude:","float","point_decimal_no_grouping","-180, 180",0
+"gps_long","GPS longitude:","float","point_decimal_no_grouping","-180, 180",0
+"mass_gathering_yn","Did you participate in mass gatherings ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"mass_gathering_date","Date (DD/MM/YYYY):","date","YYYY-MM-DD",NA,1
+"no_hhd","How many household members do you living with ?","int_ordinal",NA,"0, 100",0
+"sick_hhd_yn","Do you have any household members with similar illness or symptoms ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sick_hhd_onset","date of onset (DD/MM/YYYY)","date","YYYY-MM-DD",NA,1
+"sick_comm_yn","Are you aware of people outside your household with similar illness or symptoms ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sick_comm_relat","Relationship","int_categorical",NA,"1=friend;2=workmate;3=relative;4=romanticpartner",1
+"sick_comm_onset","date of onset (DD/MM/YYYY)","date","YYYY-MM-DD",NA,0
+"contact_sym_yn","Did you had any contacts with a SYMPTOMATIC CASE ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"contact_sym_date","Date of last contact (DD/MM/YYYY)","date","YYYY-MM-DD",NA,0
+"travel_hist_yn","Did you travel, outside your residential area, prior to symptoms onset ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"travel_hist_date","Traveling Date (DD/MM/YYYY)","date","YYYY-MM-DD",NA,1
+"tradi_n_treat","Did you received care from traditional healer or other treatment ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"animal_exposure_yn","Were you in close proximity to any animals in the XX week/months prior to symptom onset?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"animal_dom_type","Interaction context","int_categorical",NA,"1=domestic;2=wild;3=pest",0
+"animal_sick_type","Direct contact with sick animals ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"animal_sick_sign","Was it dead sick or had an abortion ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"water_drinking_qual","Cleanness of drinking water","int_categorical",NA,"1=clear;2=notclear;3=sharedwithanimals",1
+"food_change","Was there any changes or significant events involving your SOURCE of food or drinks ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"food_unusual","Was there any changes or significant events involving your FOOD PRODUCT OR DRINKS, prior to symptoms onset ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"date__dd_mm_yyyy__","Date (DD/MM/YYYY):","date","YYYY-MM-DD",NA,0
+"insect_bednet","Did you sleep under a bed net every night in the month prior to falling ill","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"insect_type","Did you notice any unusual insect lately ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"insect_qty","Did you notice unusual quantity of insect lately ?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sample1_date_taken","Date collected","date","YYYY-MM-DD",NA,0
+"alt_sgpt__u_l_","ALT/SGPT (U/L)","float","point_decimal_no_grouping","1, 2000",0
+"ast_sgo__u_l_","AST/SGO (U/L)","float","point_decimal_no_grouping","1, 2000",0
+"lactate__mmol_l_","Lactate (mmol/L)","float","point_decimal_no_grouping","0, 3",0
+"haemoglobin___g_l_","Haemoglobin ((g/L)","float","point_decimal_no_grouping","60, 180",0
+"creatinine__umol_l_","Creatinine (umol/L)","float","point_decimal_no_grouping","50, 300",0
+"total_bilirubin__umol_l_","Total bilirubin (umol/L)","float","point_decimal_no_grouping","0, 99",0
+"potassium__mmol_l_","Potassium (mmol/L)","float","point_decimal_no_grouping","0, 10",0
+"wbc_count__x109_l_","WBC count (x109/L)","float","point_decimal_no_grouping","4, 20",0
+"urea__mmol_l_","Urea (mmol/L)","float","point_decimal_no_grouping","0, 3",0
+"platelets__x109_l_","Platelets (x109/L)","float","point_decimal_no_grouping","20, 500",0
+"creatinine_kinase__u_l_","Creatinine kinase (U/L)","float","point_decimal_no_grouping","10, 500",0
+"sample1_date_sent","Sample was sent to lab","date","YYYY-MM-DD",NA,0
+"sample1_date_received","sample was received","date","YYYY-MM-DD",NA,0
+"sample3_quality","Quality","int_categorical",NA,"0=unknown;1=goodquality;2=poorqualitycompromised",0
+"test1_result_date","Results were received","date","YYYY-MM-DD",NA,0
+"atb_before","Did the patient received antibiotic prior to specimen collection?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"onset_date","Date of symptoms onset (DD/MM/YYYY) ___/___/_____","date","YYYY-MM-DD",NA,0
+"presentation_date","Date first presented to health factility (DD/MM/YYYY): ___/___/_____","date","YYYY-MM-DD",NA,0
+"hospitalised","Admitted to health facility","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"outcome","Outcome of illness (circle): still sick / cured / sequels / abandon / death","int_categorical",NA,"0=unknown;1=recovered;2=died;3=stillill;4=recoveredwithsequelas",0
+"date_outcome","Date outcome was evaluated (DD/MM/YYYY): ___/___/_____","date","YYYY-MM-DD",NA,0
+"death_date","Date of abandon/recovery or death (DD/MM/YYYY):___/___/_____","date","YYYY-MM-DD",NA,0
+"sympt_fever_subj","History of fever","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_temp","Temperature","float","point_decimal_no_grouping","24, 44",0
+"sympt_fever_onset","If febrile, date of fever onset:","date","YYYY-MM-DD",NA,0
+"onset_type","Acute / progressive onset","int_categorical",NA,"1=acute;2=progressive",0
+"sympt_chills","Chills","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_pain","Intense pain","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_bleed","Abnormal bleeding reported","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_bleed","Observed abnormal bleeding","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_bleed_site","Site of any  abnormal bleeding","int_categorical",NA,"1=gums;2=mouth;3=nose;4=vomit;5=stool;6=urine;7=vagina;8=injectionsites",0
+"sign_dehydratation","Dehydratation","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_pulse","Weak pulse","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_oede","Peripheral oedemas","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_card_dist","Signs of cardiac distress, list","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_shock","shock","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_hr","Heart rate","float","point_decimal_no_grouping","40, 160",0
+"sign_syst","Systolic blood pressure","float","point_decimal_no_grouping","5, 25",0
+"sign_dias","Diastolic blood pressure","float","point_decimal_no_grouping","2, 13",0
+"sign_resp","Observed respiratory signs","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_cough","Cough","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_expect","Productive cough/Expectoration","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_bleed_sputum","Expectoration with blood (hemoptysis)","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_short","Shortness of breath","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_resp_distress","Respiratory distress","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_blue","Cyanosis","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_pneu","pneumonia","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_pntho","pneumothorax","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_resprate","Respiratory rate","float","point_decimal_no_grouping","8, 30",0
+"sign_sat","Saturation","float","point_decimal_no_grouping","65, 100",0
+"sympt_abdopain","Stomach / abdominal pain:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_hiccoughs","Hiccoughs","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_dark_stool","Dark or bloody stool (melena):","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_abdo_mass","Abdominal mass","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_diarrhoea","Diarrhoea (=3 loose/liquid stools per day):","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_dysentery","Bloody diarrhoea (dysentery):","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_icterus","jaundice","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_vomit","Vomiting/nausea:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_anorexia","Loss of appetite (anorexia):","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_altered_conscious_yn","Conscious disorder:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_lethargy","Intense fatigue (lethargy) or weakness:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_coma","Coma","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_seizure","Seizures","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_rash","Presence of skin rash:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_rash_onset","If present, date of rash onset (DD/MM/YYYY):","date","YYYY-MM-DD",NA,0
+"sign_rash_type","If present, type of rash:","int_categorical",NA,"1=haemorrhagic;2=erythematous;3=vesicularpustular;4=petechialpurpuric;5=other",0
+"sign_necrosis","Skin necrosis","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_ulcer","Ulceration of the skin","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_gland","Swollen glands","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_conjunctivitis","Conjunctivitis:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_bleed_eyes","Bleeding into eyes (conjunctival injections):","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_difficulty_swallow","Difficulty swallowing:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_bleed_nose","Bleeding from nose (epistaxis):","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_bleed_gums","Bleeding gums (gingivitis):","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sympt_bleed_vagina","Vaginal bleeding outside of menstruation:","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"sign_renal","Not passing urines","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"cond_pregnant","Pregancy","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"cond_partum","Post partum","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"cond_acute","Associated acute disease","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"cond_immuno","Immunodeficient","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"cond_malnut","Malnutrition / MUAC measurement","float","point_decimal_no_grouping","80, 500",0
+"vac_yn","Did the patient received full vaccination course for the suspected disease?","int_categorical",NA,"0=unknown;1=yes;2=no",0
+"vac_date","Date of last dose","date","YYYY-MM-DD",NA,0
+"vac_source","Vaccination information obtained by?","int_categorical",NA,"1=vaccinationcard;2=healthservices;3=parentsoranotheradult",0
