@@ -41,7 +41,7 @@ linelist_dir <- 'data/linelists'
 
 ui <- dashboardPage(
 
-  dashboardHeader(title = 'WHO Outbreak Toolkit Virtual Assistant', disable = F, titleWidth = 400,
+  dashboardHeader(title = 'WHO Outbreak Toolkit Virtual Assistant', disable = F, titleWidth = 450,
     tags$li(class = 'dropdown', conditionalPanel(condition = '$("html").hasClass("shiny-busy")', 'loading...'))),
   dashboardSidebar(
     sidebarMenu(
