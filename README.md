@@ -62,7 +62,7 @@ The references have to be in the same directory, any number of them can be selec
 
 To test the upload function one can of course use the files provided here in [data/datadictionary](data/datadictionary), [data/references](data/references) and [data/linelists](data/linelists).
 
-Here as well, the names of data dictionary, references and line lists are the file names with ".cvs" removed and "_" replaced with a whitespace " ".
+Here as well, the names of data dictionary, references and line lists are the file names with ".csv" removed and "_" replaced with a whitespace " ".
 
 ## Issues and TODOs
 
